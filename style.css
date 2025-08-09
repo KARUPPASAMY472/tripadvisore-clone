@@ -597,7 +597,26 @@
     {
         display: none;
     }
-
+    .trip_places
+    {
+        padding: 10px;
+    }
+    .travel_main
+    {
+        padding: 10px;
+    }
+    .travel_ride
+    {
+        padding: 10px;
+    }
+    .tripparasute
+    {
+        padding: 10px;
+    }
+    .trip_nav
+    {
+        padding: 20px 0px;
+    }
 
     .nav_lines
     {
@@ -613,7 +632,7 @@
     
     .trip_front
 {
-    width: 450px;
+    width: 430px;
     height: 450px;
     flex-wrap: wrap;
 }
@@ -635,14 +654,14 @@
 {
     margin: 10px;
     
-    width: 450px;
-    font-size: 14px;
+    width: 430px;
+    font-size: 13px;
     justify-items: center;
 }
 .trip_para_1_image img
 {
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
 }
 .travel_main_1 img
 {
