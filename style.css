@@ -302,11 +302,18 @@
 }
 .trip_para_1_para p
 {
-    padding: 0px 20px 20px 20px;
+    width: 280px;
+    padding: 10px; 
+}
+.trip_para_1_para p
+{
+    width: 280px;
+    padding: 10px; 
 }
 .trip_para_1_para h2
 {
-    padding: 20px;
+    padding: 10px 0px;
+    font-size: 19px;
 }
 .trip_para_1_read
 {
@@ -458,8 +465,8 @@
 .trip_para_1_read_1 h3
 {
     position: absolute;
-    bottom: 10px;
-    left: 600px;
+    bottom: 5px;
+    left: 900px;
     width: 130px;
     background-color: white;
     padding: 10px;
@@ -652,8 +659,17 @@
 }
 .trip_para_1
 {
-    width: 430px;
+    width: 377px;
+    height: 270px;
     font-size: 13px;
+}
+.trip_para_1_para p
+{
+    width: 230px; 
+}
+.trip_para_1_para h2
+{
+    padding: 0px;
 }
 .trip_para_1_image img
 {
@@ -662,8 +678,17 @@
 }
 .travel_main_1 img
 {
-    width: 400px;
+    width: 367px;
 }
+.trip_para_1_para
+{
+    padding: 0px;
+}
+.travel_main_1_para
+{
+    left: 120px;
+}
+
 .trip_para_1_read
 {
     bottom: 7px;
@@ -675,7 +700,7 @@
 .trip_para_1_read_1 h3
 {
     position: absolute;
-    left: 250px;
+    left: 230px;
     bottom: 7px;
     text-align: center;
 
