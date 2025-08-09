@@ -593,18 +593,12 @@
 }
 
 @media screen and (max-width : 600px) {
-    *
+    .trip_places_images_arrow_1
     {
-        padding: 0;
-        margin: 0px;
+        display: none;
     }
-    body
-    {
-        width: 600px;
-        justify-content: center;
-        margin: 0px;
 
-    }
+
     .nav_lines
     {
         display: none;
@@ -619,9 +613,9 @@
     
     .trip_front
 {
-    width: 500px;
-    height: 400px;
-    justify-items: center;
+    width: 450px;
+    height: 450px;
+    flex-wrap: wrap;
 }
 .trip_front_img
 {
@@ -633,11 +627,15 @@
     width: 200px;
     height: 200px;
 }
+.trip_ride_para_line
+{
+    flex-wrap: wrap;
+}
 .trip_para
 {
     margin: 10px;
-    margin-left: 40px;
-    width: 470px;
+    
+    width: 450px;
     font-size: 14px;
     justify-items: center;
 }
@@ -675,13 +673,15 @@
 }
 .trip_ride_image img 
 {
-    width: 270px;
+    width: 170px;
     height: 270px;
+    border-radius: 6px;
    
 }
 .trip_ride_para
 {
     width: 160px;
+    
 }
 .trip_ride_para h3
 {
@@ -695,7 +695,7 @@
 }
 .tripparasute_image img
 {
-    width: 400px;
+    width: 360px;
 }
 }
 /*   overflow: auto;
