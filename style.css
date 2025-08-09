@@ -103,6 +103,36 @@
 
 
 
+.trip_where_to_search_1
+{
+    background-color: rgb(246, 245, 245);
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 15px;
+    display: none;
+
+}
+.trip_where_to_search_1 input
+{
+    margin: 0px 10px;
+    padding: 10px 0px;
+    width: 80%;
+    border: none;
+    font-size: 17px;
+    background-color: transparent;
+}
+.trip_where_to_search_1 input:focus
+{
+    outline: none;
+    font-size: 17px;
+}
+
+
 
 .trip_where_to_search
 {
@@ -349,7 +379,7 @@
     justify-content: center;
     align-items: center;
     gap: 25px;
-    flex-wrap: wrap;
+    flex-wrap: wrap;;
     position: relative;
 }
 .trip_places_images_2_1
@@ -405,7 +435,7 @@
 {
     position: absolute;
     top: 120px;
-    left: 1173px;
+    left: 98.2%;
     background-color: white;
     border: 1px solid black;
     border-radius: 50%;
@@ -466,7 +496,7 @@
 {
     position: absolute;
     bottom: 5px;
-    left: 900px;
+    left: 80%;
     width: 130px;
     background-color: white;
     padding: 10px;
@@ -603,8 +633,20 @@
     height: 700px;
 }
 
-@media screen and (max-width : 600px) {
+@media only screen and (max-width : 600px) {
     .trip_places_images_arrow_1
+    {
+        display: none;
+    }
+    .trip_places_images_arrow
+    {
+        display: none;
+    }
+    .trip_place_right_arrow
+    {
+        display: none;
+    }
+    .trip_where_to
     {
         display: none;
     }
@@ -745,3 +787,142 @@
 }
 /*   overflow: auto;
   white-space: nowrap; */
+
+
+
+  @media screen and (min-width: 600px) and (max-width: 992px)
+  {
+    
+     .trip_places_images_arrow_1
+    {
+        display: none;
+    }
+    .trip_places_images_arrow
+    {
+        display: none;
+    }
+    .trip_place_right_arrow
+    {
+        display: none;
+    }
+    .travel_main
+    {
+        padding: 10px;
+    }
+    .travel_ride
+    {
+        padding: 10px;
+    }
+    .tripparasute
+    {
+        padding: 10px;
+    }
+    .trip_nav
+    {
+        padding: 20px 0px;
+    }
+    .trip_nav_sign i
+    {
+        display: none;
+    }
+    .trip_nav_sign h4
+    {
+        display: none;
+    }
+    .trip_nav_sign a
+    {
+        font-size: 16px;
+        color: white;
+        width: 70px;
+    }
+
+    .trip_where_to
+    {
+        display: none;
+    }
+    .nav_lines
+    {
+        display: none;
+    }
+    .trip_where_to_search
+    {
+        display: none;
+    }
+    .trip_where_to_search_1
+    {
+        display: flex;
+    }
+    
+    .trip_front
+{
+    width: 500px;
+    height: fit-content;
+    flex-wrap: wrap;
+}
+.trip_front_img
+{
+    border-right: 1px solid black;
+    padding-right: 30px;
+}
+.trip_front_img img
+{
+    width: 400px;
+}
+
+
+.trip_para_1
+{
+    width: 100%;
+
+}
+
+.travel_main_1_image
+{
+    width: 590px;
+}
+
+.trip_para_1_read_1 h3
+{
+    left: 80%;
+}
+
+
+
+.trip_ride_1 
+{
+    padding: 20px 0px;
+    justify-content: center;
+    text-align: center;
+    gap: 35px;
+}
+.trip_ride_image img 
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 6px;
+   
+}
+.trip_ride_para
+{
+    width: 160px;
+    
+}
+.trip_ride_para h3
+{
+    margin-left:1px;
+    font-size: 15px;
+    width: 150px;
+}
+.tripparasute_image
+{
+    margin: 0px;
+}
+.tripparasute_image img
+{
+    width: 360px;
+}
+.trip_places_1
+{
+    padding: 20px 2px;
+}
+  }
