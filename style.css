@@ -10,8 +10,11 @@
     display: flex;
     justify-content: space-around;
     padding: 20px;
-    border-bottom: 1px solid black;
     align-items: center;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 2;
 }
 .trip_nav_logo
 {
@@ -97,6 +100,10 @@
 {
     border-bottom: 2px solid black;
 }
+
+
+
+
 .trip_where_to_search
 {
     background-color: rgb(246, 245, 245);
@@ -212,6 +219,7 @@
 {
     padding: 10px 0px;
 }
+
 .trip_places_images_1
 {
     display: flex;
@@ -219,6 +227,7 @@
     justify-content: space-around;
     gap: 30px;
     padding: 20px 0px;
+    flex-wrap: wrap;
     }
 .trip_places_images
 {
@@ -272,6 +281,7 @@
 {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     position: relative;
 }
 .trip_para_1_image
@@ -325,6 +335,7 @@
     justify-content: center;
     align-items: center;
     gap: 25px;
+    flex-wrap: wrap;
     position: relative;
 }
 .trip_places_images_2_1
@@ -429,6 +440,11 @@
     border-radius: 26px;
     width: 200px;
 }
+.travel_main_1_para h3:hover
+{
+    background-color: rgb(156, 155, 155);
+    cursor: pointer;
+}
 .travel_main_1_para p
 {
     color: white;
@@ -469,3 +485,218 @@
     color: white;
     cursor: pointer;
 }
+.trip_ride
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 229, 221);
+    padding: 20px 0px;
+}
+.trip_ride_1
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+
+.trip_ride_image img
+{
+    width: 500px;
+}
+.trip_ride_para
+{
+    text-align: center;
+    width: 400px;
+}
+.trip_ride_para h1
+{
+    padding: 10px 0px;
+}
+.trip_ride_para h3
+{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 26px;
+    width: 200px;
+    text-align: center;
+    margin: 20px 0px;
+    margin-left: 100px;
+    
+
+}
+.trip_ride_para h3:hover
+{
+    cursor: pointer;
+    background-color: rgb(117, 116, 116);
+}
+.trip_ride_para p
+{
+    padding: 10px 0px;
+}
+.trip_ride_para_line
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.tripparasute
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(5, 38, 5, 0.979);
+}
+.tripparasute_1
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 70px;
+    padding: 20px;
+}
+.tripparasute_para
+{
+    color: white;
+    width: 300px;
+}
+.tripparasute_para h2
+{
+    font-size: 55px;
+}
+.tripparasute_para h4
+{
+    background-color: white;
+    color: black;
+    border-radius: 27px;
+    padding: 15px;
+    width: 160px;
+}
+.tripparasute_para h4:hover
+{
+    cursor: pointer;
+    background-color:black;
+    color: white ;
+}
+.tripparasute_image
+{
+    margin: 0px 100px;
+}
+.tripparasute_image img
+{
+    width: 700px;
+    height: 700px;
+}
+
+@media screen and (max-width : 600px) {
+    *
+    {
+        padding: 0;
+        margin: 0px;
+    }
+    body
+    {
+        width: 600px;
+        justify-content: center;
+        margin: 0px;
+
+    }
+    .nav_lines
+    {
+        display: none;
+    }
+    .trip_where_to_search
+    {
+        width: 92%;
+        align-items: center;
+        
+    justify-items: center;
+    }
+    
+    .trip_front
+{
+    width: 500px;
+    height: 400px;
+    justify-items: center;
+}
+.trip_front_img
+{
+    border-right: 1px solid black;
+    padding-right: 30px;
+}
+.trip_front_img img
+{
+    width: 200px;
+    height: 200px;
+}
+.trip_para
+{
+    margin: 10px;
+    margin-left: 40px;
+    width: 470px;
+    font-size: 14px;
+    justify-items: center;
+}
+.trip_para_1_image img
+{
+    width: 120px;
+    height: 120px;
+}
+.travel_main_1 img
+{
+    width: 400px;
+}
+.trip_para_1_read
+{
+    bottom: -7px;
+}
+.trip_para_1_read h3
+{
+    font-size: 14px;
+}
+.trip_para_1_read_1 h3
+{
+    position: absolute;
+    left: 250px;
+    bottom: -15px;
+    text-align: center;
+
+}
+.trip_ride_1 
+{
+    padding: 20px 0px;
+    justify-content: center;
+    text-align: center;
+    gap: 35px;
+}
+.trip_ride_image img 
+{
+    width: 270px;
+    height: 270px;
+   
+}
+.trip_ride_para
+{
+    width: 160px;
+}
+.trip_ride_para h3
+{
+    margin-left:1px;
+    font-size: 15px;
+    width: 150px;
+}
+.tripparasute_image
+{
+    margin: 0px;
+}
+.tripparasute_image img
+{
+    width: 400px;
+}
+}
+/*   overflow: auto;
+  white-space: nowrap; */
