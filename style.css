@@ -697,6 +697,66 @@
     height: 700px;
 }
 
+.trip_about
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(199, 196, 191);
+}
+.trip_about_1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.trip_about_1_part_1
+{
+    color: rgb(71, 70, 70);
+    padding: 10px;
+    height: 400px;
+}
+.trip_about_1_part_1 h2
+{
+    padding: 20px 10px;
+}
+.trip_about_1_part_1 p
+{
+    padding: 10px 10px;
+}
+.part_1_1
+{
+    padding: 49px 0px;
+}
+.trip_all_rights
+{
+    
+}
+.trip_all_rights_logo
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    width: 55%;
+    padding: 10px 0px;
+}
+.trip_all_rights_1_para
+{
+    padding: 20px 20px;
+}
+.trip_all_rights_1_para a
+{
+    margin: 20px 10px;
+    padding: 10px 0px;
+    text-decoration: line;
+    color: black;
+
+}
 @media only screen and (max-width : 600px) {
     .trip_places_images_arrow_1
     {
@@ -733,6 +793,7 @@
 .side_scroll_1
 {
     display: grid;
+    padding: 20px 0px;
 }
 .trip_where_to_collection
 {
