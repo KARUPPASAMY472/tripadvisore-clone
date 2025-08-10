@@ -731,10 +731,6 @@
 {
     padding: 49px 0px;
 }
-.trip_all_rights
-{
-    
-}
 .trip_all_rights_logo
 {
     display: flex;
@@ -758,6 +754,12 @@
 
 }
 @media only screen and (max-width : 600px) {
+
+    .trip_all_rights_logo
+    {
+        text-align: center;
+        margin-left: 100px;
+    }
     .trip_places_images_arrow_1
     {
         display: none;
@@ -997,6 +999,12 @@
 
   @media screen and (min-width: 600px) and (max-width: 992px)
   {
+    .trip_all_rights_logo
+    {
+        text-align: center;
+        margin-left: 100px;
+    }
+
     #trip_nav_menu_1
     {
         display: flex;
