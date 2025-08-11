@@ -202,7 +202,7 @@
 .trip_where_to_search
 {
     background-color: rgb(246, 245, 245);
-    width: 100%;
+    max-width: 100%;
     border: 1px solid black;
     border-radius: 28px;
     display: flex;
